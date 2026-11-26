@@ -23,6 +23,16 @@
 >
 > 变通方案：升级专业版 / RDP Wrapper（第三方，有风险）/ 换 RustDesk 等协议。
 
+### 家庭版怎么办
+
+家庭版没有 RDP 服务端，但有三条替代路线。详细步骤见 **[home-edition/](home-edition/README.md)**：
+
+| 路线 | 主机端（家庭版） | 客户端（Win7） | 推荐场景 |
+|---|---|---|---|
+| [RDP Wrapper](home-edition/rdp-wrapper.md) | 装一次，解锁 RDP | 零安装，复用现有 bat | Win10 家庭版 |
+| [TightVNC](home-edition/tightvnc.md) | 装一次服务端 | 便携 viewer，双击即用 | Win11 家庭版 / 求稳 |
+| [升级专业版](home-edition/upgrade-to-pro.md) | 输入密钥 | 零安装 | 有学校授权 |
+
 ## 特点
 
 | 特点 | 说明 |
